@@ -14,10 +14,10 @@ clock = time.clock()
 red_led = pyb.LED(1)
 
 # Define the color pink in RGB565
-green = (0, 180, 0)
+green = (0, 255, 0)
 
 
-
+#loop of the program
 while(True):
     clock.tick()
     img = sensor.snapshot()
